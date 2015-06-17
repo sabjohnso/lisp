@@ -1,0 +1,47 @@
+#ifndef IMPORT_HPP_INCLUDED_1394196904419216102
+#define IMPORT_HPP_INCLUDED_1394196904419216102 1
+
+//
+// ... Standard header files
+//
+#include <cstddef>
+#include <utility>
+#include <array>
+#include <type_traits>
+
+//
+// ... Third-party header files
+//
+#include <${COMBINE_INCLUDE_DIR}/combine/combine.hpp>
+
+
+namespace Lisp
+{
+  
+  using std::size_t;
+  using std::pair;
+  using std::array;
+  using std::move;
+  using std::decay;
+  using std::forward;
+  using std::is_function;
+
+  using Combine::Types;
+  using Combine::Datum;
+  using Combine::True;
+  using Combine::False;
+  using Combine::count_types;
+  using Combine::MakeXs;
+  using Combine::MakeXn;
+  using Combine::Addition;
+  using Combine::Subtraction;
+  using Combine::Multiplication;
+  using Combine::Division;
+  using Combine::Modulous;
+
+
+} // end of namespace Lisp
+
+
+
+#endif // ! defined IMPORT_HPP_INCLUDED_1394196904419216102

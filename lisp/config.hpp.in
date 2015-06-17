@@ -1,0 +1,52 @@
+/**
+   @file
+   config.hpp
+
+   @brief
+   UNDOCUMENTED
+
+   @author: 
+   Samuel Johnson <sabjohnso@yahoo.com>
+
+*/
+
+#ifndef CONFIG_HPP_INCLUDED_894707580966045505
+#define CONFIG_HPP_INCLUDED_894707580966045505
+
+
+//
+// ... Lisp header files
+//
+#include <lisp/import.hpp>
+
+namespace Lisp
+{
+
+  constexpr inline size_t
+  major_version()
+  {
+    return ${LISP_MAJOR_VERSION}
+  }
+
+  constexpr inline size_t
+  minor_version()
+  {
+    return ${LISP_MINOR_VERSION}
+  }
+
+  constexpr inline size_t
+  build_version()
+  {
+    return ${LISP_BUILD_VERSION}
+  }
+
+  constexpr inline auto
+  version()
+  {
+    return MakeXn<array>( major_version(), minor_version(), build_version() );
+  };
+  
+  
+}
+
+#endif // ! defined CONFIG_HPP_INCLUDED_894707580966045505
