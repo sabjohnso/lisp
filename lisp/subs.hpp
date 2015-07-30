@@ -17,6 +17,8 @@ namespace Lisp
   constexpr static
   struct
   {
+    template< typename, size_t >
+    constexpr auto
   } subs{};
   
   

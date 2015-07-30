@@ -6,17 +6,11 @@
    UNDOCUMENTED
 
    @copyright	
-   2015 Halliburton Energy Services, Inc.
+   2015 Samuel B. Johnson
 
    @author: 
-   Samuel Johnson <samuel.johnson@halliburton.com>
+   Samuel Johnson <sabjohnso@yahoo.com
 
- This is a CONFIDENTIAL document.
-Neither the whole or any part of this document may
-be reproduced, stored in any retrieval system or
-transmitted in any form or by any means (electronic,
-mechanical, reprographic, recording or otherwise)
-without the prior consent of the copyright owner.
 */
 
 

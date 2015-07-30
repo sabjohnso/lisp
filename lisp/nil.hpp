@@ -88,6 +88,14 @@ namespace Lisp
     {
       return Null< typename decay<Xs >::type ... >::value;
     }
+
+    constexpr auto
+    operator ()( bool&& x ) const
+    { 
+      return ! x;
+    }
+      
+    
   } null{};
 
   constexpr static
@@ -99,6 +107,13 @@ namespace Lisp
     {
       return ! Null< typename decay<Xs>::type ... >::value;
     }
+
+    constexpr auto
+    operator()( bool&& x ) const
+    {
+      return x;
+    }
+    
   } not_null{};
     
 

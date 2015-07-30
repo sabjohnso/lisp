@@ -32,6 +32,7 @@ if( BUILD_TESTS )
   add_simplest_test( cons )
   add_simplest_test( list )
   add_simplest_test( expr )
+  add_simplest_test( ifelse )
   add_simplest_test( quote )
   add_simplest_test( symbol )
 
