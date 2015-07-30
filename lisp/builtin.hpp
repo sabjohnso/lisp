@@ -24,7 +24,7 @@ namespace Lisp
   constexpr static auto sub = Subtraction{};
   constexpr static auto mul = Multiplication{};
   constexpr static auto div = Division{};
-  constexpr static auto mod = Modulous{};
+  constexpr static auto mod = Modulo{};
   
 } // Builtin
 
